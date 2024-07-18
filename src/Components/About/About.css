@@ -1,0 +1,43 @@
+.about__section__container{
+    max-width: 1200px;
+    margin: 100px auto 0px auto;
+    padding: 0px 60px;
+}
+
+.about__section__container h1{
+    color: #3498db;
+    font-size: 100px;
+    text-align: right;
+}
+
+.about__content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.about__skills{
+    min-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__skills p{
+    padding: 10px 20px;
+    border: 1px solid white;
+    font-size: 30px;
+    flex-grow: 1;
+}
+
+.about__skills :first-child{
+    width: 100%;
+    background-color: #1a9ebc;
+    text-align: center;
+}
+
+.about__experiance p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
