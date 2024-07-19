@@ -1,0 +1,25 @@
+.portfolio__section__container{
+    max-width: 1200px;
+    margin: 100px auto 0px auto;
+}
+
+.portfolio__section__container h1{
+    color: #3498db;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.content{
+    padding: 2rem;
+}
+
+.portfolio__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 5px;
+}
+
+.portfolio__image{
+    width: 100%;
+}
