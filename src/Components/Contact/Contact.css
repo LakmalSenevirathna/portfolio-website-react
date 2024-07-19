@@ -1,0 +1,16 @@
+.contact__section__container{
+    max-width: 1200px;
+    margin: 100px auto 0px auto;
+}
+
+.contact__section__container h1{
+    color: #e74c3c;
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.contact__section__container h2{
+    font-size: 60px;
+    text-align: right;
+}

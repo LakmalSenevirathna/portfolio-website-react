@@ -7,7 +7,7 @@
 }
 
 .navbar__logo{
-    font-size:3rem;
+    font-size:60px;;
 }
 
 .navbar__links{
@@ -18,7 +18,7 @@
 
 .navbar__link{
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 
 .navbar__item:nth-child(1) .navbar__link {

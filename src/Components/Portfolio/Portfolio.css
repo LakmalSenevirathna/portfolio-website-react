@@ -4,22 +4,33 @@
 }
 
 .portfolio__section__container h1{
-    color: #3498db;
+    color: #9b59b6;
     font-size: 80px;
     margin-bottom: 20px;
 }
 
 .content{
-    padding: 2rem;
+    
 }
 
 .portfolio__content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    grid-gap: 5px;
+    grid-gap: 1rem;
 }
 
 .portfolio__image{
     width: 100%;
+}
+
+.show__more__button{
+    padding: 15px 80px;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    cursor: pointer;
 }

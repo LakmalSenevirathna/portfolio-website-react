@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 0px 60px;
 }
 
 .header__text__wrap h3{
@@ -24,6 +23,6 @@
 }
 
 .header__image{
-    max-width: 400px;
-    border-radius: 2%;
+    max-width: 350px;
+    border-radius: 1%;
 }
