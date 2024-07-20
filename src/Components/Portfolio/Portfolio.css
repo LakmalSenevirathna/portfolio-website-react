@@ -1,16 +1,12 @@
 .portfolio__section__container{
     max-width: 1200px;
-    margin: 100px auto 0px auto;
+    margin: 150px auto 0px auto;
 }
 
 .portfolio__section__container h1{
     color: #9b59b6;
     font-size: 80px;
     margin-bottom: 20px;
-}
-
-.content{
-    
 }
 
 .portfolio__content{

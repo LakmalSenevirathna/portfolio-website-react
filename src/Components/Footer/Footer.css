@@ -1,0 +1,9 @@
+.footer__section__container{
+    max-width: 1200px;
+    margin: 150px auto 0px auto;
+    margin-bottom: 20px;
+}
+
+.footer__section__container hr{
+    margin-bottom: 20px;
+}

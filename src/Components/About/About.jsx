@@ -22,6 +22,7 @@ const About = () => {
                 <p>CSS</p>
                 <p>JavaScript</p>
                 <p>PHP</p>
+                <p>Java</p>
                 <p>Wordpress</p>
                 <p>Bootstrap</p>
                 <p>Google Analytics</p>
