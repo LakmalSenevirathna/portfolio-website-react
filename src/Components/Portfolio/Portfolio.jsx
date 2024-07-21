@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Portfolio.css'
+import useScrollReveal from '../../Hooks/useScrollReveal'
 import image1 from '../../Assets/Portfolio/1.png'
 import image2 from '../../Assets/Portfolio/2.png'
 import image3 from '../../Assets/Portfolio/3.png'
@@ -11,6 +12,10 @@ import image8 from '../../Assets/Portfolio/8.png'
 import image9 from '../../Assets/Portfolio/9.png'
 
 const Portfolio = () => {
+
+    useScrollReveal('.portfolio__header', {origin: 'top'});
+    useScrollReveal('.content', {origin: 'bottom'});
+    useScrollReveal('.showMore', {origin: 'bottom'});
 
     const[visiblePortfolios, setVisiblePortfolios] = useState(6);
     const [showingAll, setShowingAll] = useState(false);
@@ -38,7 +43,7 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio__section__container'>
-      <h1>Portfolio</h1>
+      <h1 className='portfolio__header'>Portfolio</h1>
       <div className="portfolio__content">
         {portfolios.slice(0, visiblePortfolios).map((portfolio, index) => (
             <div className="content" key={index}>

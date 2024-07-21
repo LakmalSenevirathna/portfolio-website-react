@@ -1,10 +1,15 @@
 import React from 'react'
 import './Contact.css'
+import useScrollReveal from '../../Hooks/useScrollReveal'
 
 const Contact = () => {
+
+  useScrollReveal('.contact__header', {origin: 'top'});
+  useScrollReveal('.contact__form', {origin: 'bottom'});
+
   return (
     <div className='contact__section__container'>
-      <h1>Contact</h1>
+      <h1 className='contact__header'>Contact</h1>
       <div className="contact__content">
         <div className="contact__form">
           <h3>Drop me a line</h3>

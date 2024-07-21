@@ -3,7 +3,7 @@
     margin: 180px auto 0px auto;
 }
 
-.contact__section__container h1{
+.contact__section__container .contact__header{
     color: #e74c3c;
     font-size: 80px;
     margin-bottom: 40px;
@@ -56,7 +56,7 @@
         margin-top: 50px;
     }
     
-    .contact__section__container h1{
+    .contact__section__container .contact__header{
         text-align: center;
         font-size: 60px;
     }

@@ -1,8 +1,13 @@
 import React from 'react'
 import './Header.css'
 import headerImage from '../../Assets/Lakmal Senevirathna.png';
+import useScrollReveal from '../../Hooks/useScrollReveal';
 
 const Header = () => {
+
+  useScrollReveal('.header__text__wrap', { origin: 'left' });
+  useScrollReveal('.header__image__wrap', { origin: 'right' });
+
   return (
     <div className='header__section__container'>
       <div className="header__text__wrap">

@@ -3,7 +3,7 @@
     margin: 180px auto 0px auto;
 }
 
-.about__section__container h1{
+.about__section__container .about__header{
     color: #3498db;
     font-size: 80px;
     text-align: right;
@@ -47,7 +47,7 @@
         padding: 0px 10px;
     }
 
-    .about__section__container h1{
+    .about__section__container .about__header{
         font-size: 60px;
         text-align: center;
     }

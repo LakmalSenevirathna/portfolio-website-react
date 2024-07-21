@@ -1,10 +1,16 @@
 import React from 'react'
 import './About.css'
+import useScrollReveal from '../../Hooks/useScrollReveal'
 
 const About = () => {
+
+  useScrollReveal('.about__header', {origin: 'top'});
+  useScrollReveal('.about__experiance', {origin: 'bottom'});
+  useScrollReveal('.about__skills', {origin: 'bottom'});
+
   return (
     <div className='about__section__container'>
-        <h1>About</h1>
+        <h1 className='about__header'>About</h1>
         <div className="about__content">
             <div className="about__experiance">
                 <p>I'm a dedicated software developer that has a strong enthusiasm for web development. 
