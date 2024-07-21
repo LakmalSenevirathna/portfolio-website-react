@@ -8,7 +8,7 @@ const Contact = () => {
   useScrollReveal('.contact__form', {origin: 'bottom'});
 
   return (
-    <div className='contact__section__container'>
+    <div className='contact__section__container' id='contact'>
       <h1 className='contact__header'>Contact</h1>
       <div className="contact__content">
         <div className="contact__form">

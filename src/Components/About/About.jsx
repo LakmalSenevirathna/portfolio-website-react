@@ -9,7 +9,7 @@ const About = () => {
   useScrollReveal('.about__skills', {origin: 'bottom'});
 
   return (
-    <div className='about__section__container'>
+    <div className='about__section__container' id='about'>
         <h1 className='about__header'>About</h1>
         <div className="about__content">
             <div className="about__experiance">

@@ -42,7 +42,7 @@ const Portfolio = () => {
     };
 
   return (
-    <div className='portfolio__section__container'>
+    <div className='portfolio__section__container' id='portfolio'>
       <h1 className='portfolio__header'>Portfolio</h1>
       <div className="portfolio__content">
         {portfolios.slice(0, visiblePortfolios).map((portfolio, index) => (

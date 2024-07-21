@@ -11,6 +11,7 @@
 
 .navbar__logo{
     font-size:60px;
+    cursor: pointer;
 }
 
 .navbar__links{
@@ -22,6 +23,8 @@
 .navbar__link{
     text-decoration: none;
     padding: 12px 40px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .navbar__item:nth-child(1) .navbar__link {

@@ -9,7 +9,7 @@ const useScrollReveal = (selector, config) => {
             delay: 200, 
         }
         ).reveal(selector, config);
-    },[selector, config]);
+    },[]);
 };
 
 export default useScrollReveal;

@@ -27,6 +27,7 @@
     width: 100%;
     font-size: 20px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .contact__form form textarea{
@@ -34,21 +35,24 @@
     height: 100px;
     width: 100%;
     font-size: 20px;
+    border-radius: 5px;
 }
 
 ::placeholder {
     color: white; 
     font-size: 20px;
     opacity: .8;
+    border-radius: 5px;
 }
 
 .submit__button{
-    padding: 5px 60px;
+    padding: 10px 60px;
     font-size: 1rem;
     border: 1px solid white;
     margin-top: 20px;
     display: block;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 @media (max-width: 767px) {
@@ -86,6 +90,7 @@
 
     .submit__button{
         margin-top: 15px;
+        padding: 5px 50px;
     }
     
 }
