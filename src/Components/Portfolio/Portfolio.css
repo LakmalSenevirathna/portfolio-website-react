@@ -1,12 +1,12 @@
 .portfolio__section__container{
     max-width: 1200px;
-    margin: 150px auto 0px auto;
+    margin: 180px auto 0px auto;
 }
 
 .portfolio__section__container h1{
     color: #9b59b6;
     font-size: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .portfolio__content{
@@ -29,4 +29,28 @@
     display: block;
     margin-top: 30px;
     cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .portfolio__section__container{
+        margin-top: 50px;
+    }
+    
+    .portfolio__section__container h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .portfolio__content{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 70px;
+    }
+    
+    .portfolio__image{
+        width: 100%;
+    }
+    
+    .show__more__button{
+        padding: 5px 40px;
+    }
 }

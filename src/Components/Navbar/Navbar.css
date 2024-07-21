@@ -3,11 +3,11 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 10px auto;
 }
 
 .navbar__logo{
-    font-size:60px;;
+    font-size:60px;
 }
 
 .navbar__links{
@@ -22,22 +22,32 @@
 }
 
 .navbar__item:nth-child(1) .navbar__link {
-    border: 4px solid #1abc9c; 
+    background-color: #1abc9c; 
   }
   
   .navbar__item:nth-child(2) .navbar__link {
-    border: 4px solid #3498db; 
+    background-color: #3498db; 
   }
   
   .navbar__item:nth-child(3) .navbar__link {
-    border: 4px solid #9b59b6; 
+    background-color: #9b59b6; 
   }
   
   .navbar__item:nth-child(4) .navbar__link {
-    border: 4px solid #e74c3c; 
+    background-color: #e74c3c; 
   }
   
   .navbar__link:hover {
     opacity: 0.8; 
   }
+
+@media (max-width: 767px) {
+  .navbar{
+    padding: 0px 10px;
+  }
+
+  .navbar__links{
+    display: none;
+  }
+}
 
