@@ -20,6 +20,10 @@
     cursor: pointer;
 }
 
+.social__icons i:hover{
+    color: #1abc9c;
+}
+
 @media (max-width: 767px) {
     .footer__section__container{
         margin-top: 80px;

@@ -37,6 +37,12 @@ const Header = () => {
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nisi voluptate, at 
             harum autem cumque nobis tenetur a iure, minus expedita et aperiam, officia odit?
         </p>
+        <div className="header__social__icons">
+          <i className="ri-linkedin-box-line ri-2x"></i>
+          <i className="ri-instagram-line ri-2x"></i>
+          <i className="ri-github-line ri-2x"></i>
+          <i className="ri-mail-line ri-2x"></i>
+        </div>
       </div>
       <div className="header__image__wrap">
         <img src={headerImage} alt="" className='header__image' />

@@ -14,11 +14,50 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     grid-gap: 1rem;
+    padding: 0px 80px;
+}
+
+.content{
+    overflow: hidden;
+    position: relative;
+}
+
+.content__layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transform: translateY(100%);
+    transition: .5s ease-out;
+    opacity: .9;
+}
+
+.content:hover .content__layer{
+    transform: translateY(0%);
+}
+
+.content__layer a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.content__layer a i{
+    font-size: 100px;
 }
 
 .portfolio__image{
     width: 100%;
     border-radius: 5px;
+    transition: .5s ease-out;
+}
+
+.portfolio__image:hover{
+    transform: scale(1.1);
 }
 
 .show__more__button{

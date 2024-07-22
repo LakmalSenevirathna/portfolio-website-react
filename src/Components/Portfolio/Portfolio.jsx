@@ -21,15 +21,15 @@ const Portfolio = () => {
     const [showingAll, setShowingAll] = useState(false);
 
     const portfolios = [
-        { image: image1, link: "https://github.com/LakmalSenevirathna/weather-app-using-react" },
-        { image: image2, link: "https://github.com/LakmalSenevirathna/Tic-Tac-Toe-Game-in-React-Js" },
-        { image: image3, link: "https://github.com/LakmalSenevirathna/Stopwatch-in-ReactJS" },
-        { image: image4, link: "https://github.com/LakmalSenevirathna/Responsive-Hotel-Booking-Website" },
-        { image: image5, link: "https://github.com/LakmalSenevirathna/Login-Signup-React-Js" },
-        { image: image6, link: "https://github.com/LakmalSenevirathna/Todo-List-React-Js" },
-        { image: image7, link: "https://github.com/LakmalSenevirathna/Travel-Website" },
-        { image: image8, link: "https://github.com/LakmalSenevirathna/Photography-Landing-Page" },
-        { image: image9, link: "https://github.com/LakmalSenevirathna/E-Learning-Landing-Page" }
+        { image: image1, appName:"Weather App", link: "https://github.com/LakmalSenevirathna/weather-app-using-react" },
+        { image: image2, appName:"Tic Tac Toe Game", link: "https://github.com/LakmalSenevirathna/Tic-Tac-Toe-Game-in-React-Js" },
+        { image: image3, appName:"Stopwatch", link: "https://github.com/LakmalSenevirathna/Stopwatch-in-ReactJS" },
+        { image: image4, appName:"Hotel Booking Website", link: "https://github.com/LakmalSenevirathna/Responsive-Hotel-Booking-Website" },
+        { image: image5, appName:"Login Signup", link: "https://github.com/LakmalSenevirathna/Login-Signup-React-Js" },
+        { image: image6, appName:"Todo List", link: "https://github.com/LakmalSenevirathna/Todo-List-React-Js" },
+        { image: image7, appName:"Travel Website", link: "https://github.com/LakmalSenevirathna/Travel-Website" },
+        { image: image8, appName:"Photography Landing Page", link: "https://github.com/LakmalSenevirathna/Photography-Landing-Page" },
+        { image: image9, appName:"E Learning Landing Page", link: "https://github.com/LakmalSenevirathna/E-Learning-Landing-Page" }
       ];
 
       const toggleShow = () => {
@@ -46,8 +46,19 @@ const Portfolio = () => {
       <h1 className='portfolio__header'>Portfolio</h1>
       <div className="portfolio__content">
         {portfolios.slice(0, visiblePortfolios).map((portfolio, index) => (
-            <div className="content" key={index}>
-                <a href={portfolio.link} target="_blank" rel="noopener noreferrer"><img src={portfolio.image} alt="" className='portfolio__image' /></a>
+            // <div className="content" key={index}>
+            //     <a href={portfolio.link} target="_blank" rel="noopener noreferrer"><img src={portfolio.image} alt="" className='portfolio__image' /></a>
+            // </div>
+            <div className="content__box" key={index}>
+              <div className="content" >
+                  <img src={portfolio.image} alt="" className='portfolio__image' />
+                    <div className="content__layer">
+                      <a href={portfolio.link} target="_blank" rel="noopener noreferrer">
+                        <i className="ri-github-fill"></i>
+                        <div className="app__name">{portfolio.appName}</div>
+                      </a>
+                    </div>
+              </div>
             </div>
         ))}
       </div>

@@ -31,6 +31,20 @@
     font-size: 1.2rem;
 }
 
+.header__social__icons{
+    margin-top: 20px;
+    margin-left: -3px;
+}
+
+.header__social__icons i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header__social__icons i:hover{
+    color: #e74c3c;
+}
+
 .header__image{
     max-width: 350px;
     border-radius: 5px;
@@ -62,6 +76,14 @@
     .header__text__wrap p{
         margin-top: 10px;
         font-size: 1rem;
+    }
+
+    .header__social__icons{
+        margin-left: 0px;
+    }
+
+    .header__social__icons i{
+        font-size: 25px;
     }
 
 }
