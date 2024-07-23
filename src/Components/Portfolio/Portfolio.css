@@ -4,7 +4,7 @@
 }
 
 .portfolio__section__container .portfolio__header{
-    color: #9b59b6;
+    color: #3498db;
     font-size: 80px;
     margin-bottom: 40px;
 }
@@ -67,7 +67,7 @@
     margin-top: 10px;
     margin: 0 auto;
     display: block;
-    margin-top: 30px;
+    margin-top: 60px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -90,8 +90,16 @@
     .portfolio__image{
         width: 100%;
     }
+
+    .content__layer{
+        font-size: 25px;
+    }
     
     .show__more__button{
         padding: 5px 40px;
+    }
+
+    .content__layer a i{
+        font-size: 70px;
     }
 }

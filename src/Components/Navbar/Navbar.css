@@ -14,46 +14,94 @@
     cursor: pointer;
 }
 
-.navbar__links{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+.navbar__container ul{
+  display: flex;
 }
 
-.navbar__link{
-    text-decoration: none;
-    padding: 12px 40px;
-    border-radius: 5px;
-    cursor: pointer;
+.navbar__container ul li .navbar__link{
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 2%;
+  margin: 0px 5px;
+  background-color: #3498db;
+  cursor: pointer;
 }
 
-.navbar__item:nth-child(1) .navbar__link {
-    background-color: #1abc9c; 
-  }
-  
-  .navbar__item:nth-child(2) .navbar__link {
-    background-color: #3498db; 
-  }
-  
-  .navbar__item:nth-child(3) .navbar__link {
-    background-color: #9b59b6; 
-  }
-  
-  .navbar__item:nth-child(4) .navbar__link {
-    background-color: #e74c3c; 
-  }
-  
-  .navbar__link:hover {
-    opacity: 0.8; 
-  }
+ul li:last-child .navbar__link{
+  margin: 0px 0px 0px 5px;
+}
+
+.navbar__container ul li .navbar__link:hover{
+  background-color: white;
+  color: black;
+}
+
+.navbar__container ul li .navbar__link.active{
+  background-color: white;
+  color: black;
+}
+
+.hamburger{
+  display: none;
+}
 
 @media (max-width: 767px) {
   .navbar{
     padding: 0px 10px;
   }
 
-  .navbar__links{
-    display: none;
+  .hamburger{
+    display: block;
+    cursor: pointer;
   }
+
+  .hamburger .line{
+    width: 40px;
+    color: white;
+    height: 5px;
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+
+  .hamburger .line:last-child {
+    margin-bottom: 0;
+}
+
+  .navbar__container{
+    /* height: 316px; */
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: black;
+    transition: .5s;
+    overflow: hidden;
+  }
+
+  .navbar__container.active{
+    height: 316px;
+  }
+
+  .navbar__container ul{
+    display: block;
+    width: fit-content;
+    margin: 40px auto 40px auto;
+    text-align: center;
+    transition: .5s;
+  }
+
+  ul li:last-child .navbar__link{
+    margin: 0px 5px;
+  }
+
+  .navbar__container ul li .navbar__link{
+    margin-bottom: 12px;
+  }
+
 }
 
