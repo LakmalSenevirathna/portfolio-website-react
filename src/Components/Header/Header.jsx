@@ -31,9 +31,9 @@ const Header = () => {
   return (
     <div className='header__section__container' id='home'>
       <div className="header__text__wrap">
-        <h3>Hi, Myself</h3>
+        <h3>Hi, I am</h3>
         <h1>Lakmal Senevirathna</h1>
-        <h3>And I am a <span ref={typingElement} className='typing'>Front-end Developer</span></h3>
+        <h3>And a <span ref={typingElement} className='typing'>Front-end Developer</span></h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nisi voluptate, at 
             harum autem cumque nobis tenetur a iure, minus expedita et aperiam, officia odit?
         </p>

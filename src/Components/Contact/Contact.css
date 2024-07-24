@@ -28,6 +28,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     border-radius: 5px;
+    padding: 0px 5px;
 }
 
 .contact__form form textarea{
@@ -36,6 +37,7 @@
     width: 100%;
     font-size: 20px;
     border-radius: 5px;
+    padding: 0px 5px;
 }
 
 ::placeholder {
@@ -53,6 +55,23 @@
     display: block;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.contact__content .contact__popup{
+    position: absolute;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.contact__content .contact__popup button{
+    padding: 5px 50px;
+    font-size: 16px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
 }
 
 @media (max-width: 767px) {
@@ -93,4 +112,13 @@
         padding: 5px 50px;
     }
     
+    .contact__content .contact__popup{
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+    
+    .contact__content .contact__popup button{
+        font-size: 15px;
+        margin-top: 20px;
+    }
 }

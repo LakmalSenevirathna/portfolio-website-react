@@ -70,6 +70,11 @@
     margin-top: 60px;
     cursor: pointer;
     border-radius: 5px;
+    transition: .2s ease;
+}
+
+.show__more__button:hover{
+    color: #3498db;
 }
 
 @media (max-width: 767px) {
