@@ -6,7 +6,7 @@
 .portfolio__section__container .portfolio__header{
     color: #3498db;
     font-size: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .portfolio__content{
@@ -79,7 +79,7 @@
 
 .header__experience{
     font-size: 50px;
-    margin-top: 140px;
+    margin-top: 120px;
     text-align: center;
 }
 
@@ -93,7 +93,6 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .timeline__year{
@@ -107,8 +106,8 @@
     width: 2px;
     height: 100%;
     background-color: white;
-    left: 75px;
-    top: 50px;
+    left: 72px;
+    top: 40px;
 }
 
 .timeline__item .timeline__year span{
@@ -123,23 +122,31 @@
 
 .timeline__item .timeline__year .timeline__icon{
     position: absolute;
-    top: 3px;
+    top: 5px;
     left: 60px;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background-color: #3498db;
     border-radius: 50%;
-    
+}
+
+.timeline__content h3,h4{
+    margin-bottom: 5px;
+}
+
+.timeline__content p{
+    text-align: justify;
 }
 
 @media (max-width: 767px) {
     .portfolio__section__container{
-        margin-top: 50px;
+        margin-top: 70px;
     }
     
     .portfolio__section__container .portfolio__header{
         font-size: 60px;
         text-align: center;
+        margin-bottom: 20px;
     }
     
     .portfolio__content{
@@ -163,7 +170,12 @@
         font-size: 70px;
     }
 
+    .header__experience{
+        margin-top: 70px;
+        font-size: 35px;
+    }
+
     .timeline{
-        padding: 50px 20px 0px;
+        padding: 20px 20px 0px;
     }
 }

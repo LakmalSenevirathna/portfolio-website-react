@@ -16,6 +16,7 @@ const Portfolio = () => {
     useScrollReveal('.portfolio__header', {origin: 'top'});
     useScrollReveal('.content', {origin: 'bottom'});
     useScrollReveal('.showMore', {origin: 'bottom'});
+    useScrollReveal('.timeline__item', {origin: 'left'});
 
     const[visiblePortfolios, setVisiblePortfolios] = useState(6);
     const [showingAll, setShowingAll] = useState(false);
@@ -80,8 +81,13 @@ const Portfolio = () => {
               <div className="timeline__content">
                   <h3>Associate Functional Consultant - Oracle ERP</h3>
                   <h4>DMS Software Technologies (Pvt) Ltd</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                  <p>
+                  Configured Oracle ERP modules (Inventory, Purchasing, Accounts Payables) to meet 
+                  client requirements and align with business processes. Collaborated with technical 
+                  teams on customization, integration, and data migration. Conducted system testing to 
+                  ensure quality. Provided end-user training and support for smooth ERP adoption and 
+                  utilization.
+                  </p>
               </div>
           </div>
           <div className="timeline__item">
@@ -92,8 +98,12 @@ const Portfolio = () => {
               <div className="timeline__content">
                   <h3>eLearning Support Engineer</h3>
                   <h4> TecnoZone IT Solutions (Pvt.) Ltd</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                  <p>
+                  Provided 1st line technical support by answering queries via ticketing tool, phone, and email. 
+                  Worked closely with the development team to install development-related tools. Created, updated, 
+                  and maintained document workflows, user resources, and IT processes. Identified and resolved 
+                  technical issues, recommending effective solutions.
+                  </p>
               </div>
           </div>
           <div className="timeline__item">
@@ -104,8 +114,12 @@ const Portfolio = () => {
               <div className="timeline__content">
                   <h3>Junior Web Developer - Freelance</h3>
                   <h4>Colombo - Sri Lanka</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                  <p>
+                  Managed and maintained WordPress websites, ensuring optimal performance, security, and user 
+                  experience. Designed and developed dynamic web pages using HTML, CSS, JavaScript, PHP, and 
+                  Bootstrap, and applied media queries to create responsive websites across different screen 
+                  sizes.
+                  </p>
               </div>
           </div>
         </div>

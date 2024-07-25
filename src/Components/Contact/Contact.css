@@ -56,6 +56,10 @@
     border-radius: 5px;
 }
 
+.submit__button:hover{
+    color: #3498db;
+}
+
 .contact__content .contact__popup{
     position: absolute;
     padding: 30px 20px;
@@ -81,6 +85,7 @@
     .contact__section__container .contact__header{
         text-align: center;
         font-size: 60px;
+        margin-bottom: 20px;
     }
     
     .contact__content{
