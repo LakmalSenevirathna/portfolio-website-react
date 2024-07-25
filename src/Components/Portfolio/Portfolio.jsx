@@ -44,28 +44,71 @@ const Portfolio = () => {
   return (
     <div className='portfolio__section__container' id='portfolio'>
       <h1 className='portfolio__header'>Portfolio</h1>
-      <div className="portfolio__content">
-        {portfolios.slice(0, visiblePortfolios).map((portfolio, index) => (
-            // <div className="content" key={index}>
-            //     <a href={portfolio.link} target="_blank" rel="noopener noreferrer"><img src={portfolio.image} alt="" className='portfolio__image' /></a>
-            // </div>
-            <div className="content__box" key={index}>
-              <div className="content" >
-                  <img src={portfolio.image} alt="" className='portfolio__image' />
-                    <div className="content__layer">
-                      <a href={portfolio.link} target="_blank" rel="noopener noreferrer">
-                        <i className="ri-github-fill"></i>
-                        <div className="app__name">{portfolio.appName}</div>
-                      </a>
-                    </div>
+      <div className="portfolio">
+        <div className="portfolio__content">
+          {portfolios.slice(0, visiblePortfolios).map((portfolio, index) => (
+              // <div className="content" key={index}>
+              //     <a href={portfolio.link} target="_blank" rel="noopener noreferrer"><img src={portfolio.image} alt="" className='portfolio__image' /></a>
+              // </div>
+              <div className="content__box" key={index}>
+                <div className="content" >
+                    <img src={portfolio.image} alt="" className='portfolio__image' />
+                      <div className="content__layer">
+                        <a href={portfolio.link} target="_blank" rel="noopener noreferrer">
+                          <i className="ri-github-fill"></i>
+                          <div className="app__name">{portfolio.appName}</div>
+                        </a>
+                      </div>
+                </div>
               </div>
-            </div>
-        ))}
+          ))}
+        </div>
+        <div className='showMore'>
+          <button onClick={toggleShow} className='show__more__button'>
+              {showingAll ? 'Show Less' : 'Show More'}
+          </button>
+        </div>
       </div>
-      <div className='showMore'>
-        <button onClick={toggleShow} className='show__more__button'>
-            {showingAll ? 'Show Less' : 'Show More'}
-        </button>
+      <div className="experience">
+        <h2 className='header__experience'>Experience</h2>
+        <div className="timeline">
+          <div className="timeline__item">
+              <div className="timeline__year">
+                  <span>2024</span>
+                  <div className="timeline__icon"></div>
+              </div>
+              <div className="timeline__content">
+                  <h3>Associate Functional Consultant - Oracle ERP</h3>
+                  <h4>DMS Software Technologies (Pvt) Ltd</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+              </div>
+          </div>
+          <div className="timeline__item">
+              <div className="timeline__year">
+                  <span>2022</span>
+                  <div className="timeline__icon"></div>
+              </div>
+              <div className="timeline__content">
+                  <h3>eLearning Support Engineer</h3>
+                  <h4> TecnoZone IT Solutions (Pvt.) Ltd</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+              </div>
+          </div>
+          <div className="timeline__item">
+              <div className="timeline__year">
+                  <span>2021</span>
+                  <div className="timeline__icon"></div>
+              </div>
+              <div className="timeline__content">
+                  <h3>Junior Web Developer - Freelance</h3>
+                  <h4>Colombo - Sri Lanka</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   )
