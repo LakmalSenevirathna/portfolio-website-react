@@ -33,7 +33,7 @@ const Header = () => {
       <div className="header__text__wrap">
         <h3>Hi, I am</h3>
         <h1>Lakmal Senevirathna</h1>
-        <h3>And a <span ref={typingElement} className='typing'>Front-end Developer</span></h3>
+        <h3>And a <span ref={typingElement} className='typing'></span></h3>
         <p>
           I'm a passionate front-end developer specializing in dynamic, responsive web solutions 
           using the latest technologies. I excel in designing, developing, and maintaining user-friendly 
