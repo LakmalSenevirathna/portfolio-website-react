@@ -7,7 +7,7 @@ import js from '../../Assets/Skills/javascript.png'
 import php from '../../Assets/Skills/php.png'
 import java from '../../Assets/Skills/java.png'
 import wp from '../../Assets/Skills/wp.png'
-import bs from '../../Assets/Skills/bootstrap.png'
+import oracle from '../../Assets/Skills/oracle.png'
 import reactjs from '../../Assets/Skills/react.png'
 import nodejs from '../../Assets/Skills/node.png'
 import expressjs from '../../Assets/Skills/express.png'
@@ -41,6 +41,10 @@ const About = () => {
             <div className="about__skills">
               <h3>My Skills</h3>
               <div className="skills">
+              <div className="skill">
+                  <img src={oracle} alt="" />
+                  <p>Oracle ERP</p>
+                </div>
                 <div className="skill">
                   <img src={html} alt="" />
                   <p>HTML</p>
@@ -64,10 +68,6 @@ const About = () => {
                 <div className="skill">
                   <img src={wp} alt="" />
                   <p>WordPress</p>
-                </div>
-                <div className="skill">
-                  <img src={bs} alt="" />
-                  <p>Bootstrap</p>
                 </div>
                 <div className="skill">
                   <img src={mysql} alt="" />
