@@ -15,7 +15,7 @@ const Header = () => {
   const typingElement = useRef(null);
   useEffect(() => {
     const typed = new Typed(typingElement.current, {
-      strings: ['Front-end Developer', 'Web Developer', 'Tech Enthusiast'],
+      strings: ['ERP Consultant', 'Web Developer', 'Tech Enthusiast'],
       typeSpeed: 70,
       backSpeed: 70,
       backDelay: 1000,
@@ -35,9 +35,8 @@ const Header = () => {
         <h1>Lakmal Senevirathna</h1>
         <h3>And a <span ref={typingElement} className='typing'></span></h3>
         <p>
-          I'm a passionate front-end developer specializing in dynamic, responsive web solutions 
-          using the latest technologies. I excel in designing, developing, and maintaining user-friendly 
-          websites.
+        I’m an ERP Consultant focused on optimizing business operations and a web development enthusiast, 
+        enhancing user experience and performance.
         </p>
         <div className="header__social__icons">
           <a href="https://www.linkedin.com/in/lakmal-senevirathna-b288b8176/" target='_blank'>

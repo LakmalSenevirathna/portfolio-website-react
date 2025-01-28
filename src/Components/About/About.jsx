@@ -26,14 +26,17 @@ const About = () => {
         <h1 className='about__header'>About</h1>
         <div className="about__content">
             <div className="about__experiance">
-                <p>I'm a dedicated software developer that has a strong enthusiasm for web development. 
-                    Utilizing the latest web technologies to design and develop dynamic, responsive, 
-                    and user-friendly web solutions is what I enjoy doing best. I have expertise creating 
-                    dynamic web pages, managing and maintaining websites, and making sure security and 
-                    performance are at their best. Apart from that, I have worked with technical teams on 
-                    data migration and system integration, configured and customized Oracle ERP modules, and 
-                    given thorough end-user training. In order to create meaningful digital experiences, I'm 
-                    committed to always learning and developing in the web development industry.</p>
+                <p>I am an experienced ERP Consultant with a strong foundation in implementing and optimizing Oracle 
+                  Fusion Cloud and Oracle EBS projects. Specializing in modules like Inventory, Purchasing, Accounts 
+                  Payable, and Order Management, I excel in configuring ERP systems to align with client-specific 
+                  processes and operational needs. My expertise extends to system testing, integration, data migration, 
+                  and end-user training, ensuring seamless adoption and efficient utilization of ERP solutions. <br />
+
+                  Beyond ERP, I have hands-on experience in web development and WordPress management, delivering optimal 
+                  performance, security, and user experience across platforms. <br />
+
+                  Driven by a commitment to continuous improvement and problem-solving, I strive to deliver 
+                  impactful solutions that empower businesses to achieve operational excellence.</p>
             </div>
             <div className="about__skills">
               <h3>My Skills</h3>
