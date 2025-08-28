@@ -10,6 +10,8 @@ import image6 from '../../Assets/Portfolio/6.png'
 import image7 from '../../Assets/Portfolio/7.png'
 import image8 from '../../Assets/Portfolio/8.png'
 import image9 from '../../Assets/Portfolio/9.png'
+import image10 from '../../Assets/Portfolio/10.png'
+import image11 from '../../Assets/Portfolio/11.png'
 
 const Portfolio = () => {
 
@@ -22,15 +24,19 @@ const Portfolio = () => {
     const [showingAll, setShowingAll] = useState(false);
 
     const portfolios = [
+        { image: image10, appName:"Sri Lanka Travel Blog", link: "https:/intosrilanka.com" },
+        { image: image11, appName:"Finland Job Finding Resources and more", link: "https://jobfinderfinland.com" },
+        { image: image7, appName:"Travel Website", link: "https://github.com/LakmalSenevirathna/Travel-Website" },
+        { image: image8, appName:"Photography Landing Page", link: "https://github.com/LakmalSenevirathna/Photography-Landing-Page" },
+        { image: image9, appName:"E Learning Landing Page", link: "https://github.com/LakmalSenevirathna/E-Learning-Landing-Page" },
         { image: image1, appName:"Weather App", link: "https://github.com/LakmalSenevirathna/weather-app-using-react" },
         { image: image2, appName:"Tic Tac Toe Game", link: "https://github.com/LakmalSenevirathna/Tic-Tac-Toe-Game-in-React-Js" },
         { image: image3, appName:"Stopwatch", link: "https://github.com/LakmalSenevirathna/Stopwatch-in-ReactJS" },
         { image: image4, appName:"Hotel Booking Website", link: "https://github.com/LakmalSenevirathna/Responsive-Hotel-Booking-Website" },
         { image: image5, appName:"Login Signup", link: "https://github.com/LakmalSenevirathna/Login-Signup-React-Js" },
-        { image: image6, appName:"Todo List", link: "https://github.com/LakmalSenevirathna/Todo-List-React-Js" },
-        { image: image7, appName:"Travel Website", link: "https://github.com/LakmalSenevirathna/Travel-Website" },
-        { image: image8, appName:"Photography Landing Page", link: "https://github.com/LakmalSenevirathna/Photography-Landing-Page" },
-        { image: image9, appName:"E Learning Landing Page", link: "https://github.com/LakmalSenevirathna/E-Learning-Landing-Page" }
+        { image: image6, appName:"Todo List", link: "https://github.com/LakmalSenevirathna/Todo-List-React-Js" }
+
+
       ];
 
       const toggleShow = () => {
@@ -112,7 +118,7 @@ const Portfolio = () => {
                   <div className="timeline__icon"></div>
               </div>
               <div className="timeline__content">
-                  <h3>Junior Web Developer - Freelance</h3>
+                  <h3>Freelance Web Developer</h3>
                   <h4>Colombo - Sri Lanka</h4>
                   <p>
                   Managed and maintained WordPress websites, ensuring optimal performance, security, and user 
