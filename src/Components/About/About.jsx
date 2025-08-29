@@ -26,14 +26,11 @@ const About = () => {
         <h1 className='about__header'>About</h1>
         <div className="about__content">
             <div className="about__experiance">
-                <p>I am an experienced ERP Consultant with a strong foundation in implementing and optimizing Oracle 
-                  Fusion Cloud projects. Specializing in modules like Inventory, Purchasing, Accounts 
-                  Payable, and Fixed Assets, I excel in configuring ERP systems to align with client-specific 
-                  processes and operational needs. My expertise extends to system testing, integration, data migration, 
-                  and end-user training, ensuring seamless adoption and efficient utilization of ERP solutions. <br />
-
-                  Beyond ERP, I have hands-on experience in web development and WordPress management, delivering optimal 
-                  performance, security, and user experience across platforms. <br />
+                <p>I am a versatile professional with expertise in both ERP consulting and web development, delivering solutions 
+                  that enhance business operations and digital experiences. In ERP, I specialize in Oracle Fusion Cloud modules 
+                  such as Inventory, Purchasing, Accounts Payable, and Fixed Assets, with experience in system configuration, testing, 
+                  integration, data migration, and end-user training. Simultaneously, I bring hands-on experience in web development 
+                  and WordPress management, creating high-performing, secure, and user-friendly digital platforms. <br />
 
                   Driven by a commitment to continuous improvement and problem-solving, I strive to deliver 
                   impactful solutions that empower businesses to achieve operational excellence.</p>
