@@ -27,8 +27,8 @@ const About = () => {
         <div className="about__content">
             <div className="about__experiance">
                 <p>I am an experienced ERP Consultant with a strong foundation in implementing and optimizing Oracle 
-                  Fusion Cloud and Oracle EBS projects. Specializing in modules like Inventory, Purchasing, Accounts 
-                  Payable, and Order Management, I excel in configuring ERP systems to align with client-specific 
+                  Fusion Cloud projects. Specializing in modules like Inventory, Purchasing, Accounts 
+                  Payable, and Fixed Assets, I excel in configuring ERP systems to align with client-specific 
                   processes and operational needs. My expertise extends to system testing, integration, data migration, 
                   and end-user training, ensuring seamless adoption and efficient utilization of ERP solutions. <br />
 
